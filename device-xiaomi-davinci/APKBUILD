@@ -9,6 +9,7 @@ arch="aarch64"
 options="!check !archcheck"
 depends="
 	linux-postmarketos-qcom-sm7150
+	make-dynpart-mappings
 	mesa-dri-gallium
 	mkbootimg
 	postmarketos-base
@@ -34,10 +35,13 @@ nonfree_firmware() {
 	depends="
 		firmware-xiaomi-davinci-adsp
 		firmware-xiaomi-davinci-cdsp
+		firmware-xiaomi-davinci-gpu
 		firmware-xiaomi-davinci-ipa
 		firmware-xiaomi-davinci-modem
+		firmware-xiaomi-davinci-touchscreen
 		firmware-xiaomi-davinci-wlan
 		linux-firmware-ath10k
+		linux-firmware-qca
 		linux-firmware-qcom
 		msm-modem
 		msm-modem-uim-selection
@@ -49,5 +53,5 @@ nonfree_firmware() {
 }
 
 sha512sums="
-fb2ef7c4fa663824359596b01fe3159fd1c4d9038c38e3c39ca33cb7c1bedcab18adcc9d49f5f10f7fbdf54d8e6f7b6ad883709cf25662db1dc9c908209279e0  deviceinfo
+9acb941710fef53205948c25ffa6b3760ce5bd9a40f907f89b09d647b26e20dc48a2d8e07b06555f211dd7a436af22a5d3f4549195dc9583cb4740fde32fb1f9  deviceinfo
 "

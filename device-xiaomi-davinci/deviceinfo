@@ -3,7 +3,7 @@
 # scripts.
 
 deviceinfo_format_version="0"
-deviceinfo_name="Xiaomi Mi 9T / Redmi K20"
+deviceinfo_name="Mi 9T / Redmi K20"
 deviceinfo_manufacturer="Xiaomi"
 deviceinfo_codename="xiaomi-davinci"
 deviceinfo_year="2019"
@@ -35,3 +35,4 @@ deviceinfo_flash_offset_ramdisk="0x01000000"
 deviceinfo_flash_offset_second="0x00f00000"
 deviceinfo_flash_offset_tags="0x00000100"
 deviceinfo_rootfs_image_sector_size="4096"
+deviceinfo_super_partitions="/dev/sda24"
